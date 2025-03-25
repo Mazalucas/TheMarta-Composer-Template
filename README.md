@@ -1,4 +1,4 @@
-# 🧩 Full-Stack Template
+# 🧩 Full Stack AI Composer Template
 
 Una plantilla full-stack para crear aplicaciones con inteligencia artificial de forma rápida, usando tecnologías modernas como **Next.js 14**, **TailwindCSS**, **Firebase** y APIs como **OpenAI**, **Anthropic** y **Replicate**.
 
@@ -38,38 +38,57 @@ Para crear en minutos una app que:
    ```bash
    git clone https://github.com/ansh/template-2.git
    cd template-2
+   ```
 
 2. **Instalá dependencias:**
 
    ```bash
    npm install
+   ```
 
-3. **Configurá tus variables de entorno (.env.local):**
-Debés agregar las claves de API necesarias para:
+3. **Configurá tus variables de entorno (`.env.local`):**
 
-- OpenAI
-- Firebase (configuración de tu proyecto)
-- Anthropic
-- Replicate
+   Debés agregar las claves de API necesarias para:
+
+   - OpenAI
+   - Firebase (configuración de tu proyecto)
+   - Anthropic
+   - Replicate
 
 4. **Corré el servidor:**
 
    ```bash
    npm run dev
+   ```
 
-5. **¡Listo! Ya podés empezar a construir tu app con IA ✨**
+5. **¡Listo!** Ya podés empezar a construir tu app con IA ✨
 
+---
 
-## **📂 Estructura del proyecto**
+## 📂 Estructura del proyecto
 
-   ```bash
-   /app          → rutas y páginas con App Router
-   /components   → componentes reutilizables
-   /lib          → lógica para conectarse con APIs de IA
-   /firebase     → configuración de Firebase
-   /styles       → estilos globales
+```
+/app          → rutas y páginas con App Router
+/components   → componentes reutilizables
+/lib          → lógica para conectarse con APIs de IA
+/firebase     → configuración de Firebase
+/styles       → estilos globales
+```
 
-  
+---
 
+## 🛠 Tecnologías utilizadas
 
+- [Next.js 14](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Firebase](https://firebase.google.com/)
+- [OpenAI API](https://platform.openai.com/)
+- [Anthropic API](https://www.anthropic.com/)
+- [Replicate API](https://replicate.com/)
+- [Vercel AI SDK](https://vercel.com/blog/introducing-vercel-ai-sdk)
 
+---
+
+## 🙌 Créditos
+
+Este proyecto es un fork, esta basado en otro creado por **Ansh** y **Riley** para desarrolladores curiosos que quieren construir el futuro con IA.
