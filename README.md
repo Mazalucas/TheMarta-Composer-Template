@@ -36,7 +36,7 @@ Para crear en minutos una app que:
 1. **Cloná el repositorio:**
 
    ```bash
-   git clone https://github.com/ansh/template-2.git
+   git clone https://github.com/Mazalucas/Composer-Template.git
    cd template-2
    ```
 
